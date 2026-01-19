@@ -41,7 +41,7 @@
         </nav>
 
         <!-- banner section-->
-         <section class="container mx-auto bg-[url(./assets/hero-bg.png)] h-[760px] bg-center bg-no-repeat flex flex-col items-center justify-center text-center">
+         <section class="container mx-auto bg-[url(./assets/hero-bg.png)] min-h-[760px] bg-center bg-no-repeat flex flex-col items-center justify-center text-center">
             <div class="bg-[url(./assets/hero-circle.png)] w-[350px] h-[350px] bg-[length:80%] sm:bg-[length:100%] bg-no-repeat bg-center flex justify-center items-center">
                 <img src="./assets/microphone.png" alt="">
             </div>
@@ -205,7 +205,33 @@
      </main>
 
      <!-- footer -->
-      <footer>
+      <footer class="container mx-auto bg-[url('/assets/footer-bg.png')] bg-cover bg-center bg-no-repeat py-0 md:py-28">
+
+        <div class="w-full flex flex-col items-center justify-center text-center text-white px-4">
+            <h2 class="lg:mt-10 mb-8 text-[40px] lg:text-6xl font-extrabold">Tech<span class="bg-linear-to-b from-yellow-500 via-pink-500 to-purple-500 bg-clip-text text-transparent">Wave</span></h2>
+
+            <div class="grid grid-cols-2 gap-5 md:grid-cols-3 lg:grid-cols-4 place-items-center ml-0 md:ml-8">
+                <div class="flex gap-2 items-center">
+                <img src="./assets/spotify.png" alt="">
+                <p class="opacity-60">Listen on Spotify</p>
+            </div>
+            <div class="flex gap-2 items-center">
+                <img src="./assets/apple-podcast.png" alt="">
+                <p class="opacity-60">Apple Podcasts</p>
+            </div>
+            <div class="flex gap-2 items-center">
+                <img src="./assets/youtube-podcast.png" alt="">
+                <p class="opacity-60">YouTube</p>
+            </div>
+            <div class="flex gap-2 items-center">
+                <img src="./assets/twitter.png" alt="">
+                <p class="opacity-60">Twitter</p>
+            </div>
+            </div>
+
+                <p class="mt-8">© 2026 TechWave Podcast. All rights reserved.</p>
+            
+        </div>
 
       </footer>
 
